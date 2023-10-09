@@ -1,0 +1,49 @@
+body {
+    font-family: Staatliches, sans-serif;
+}
+.live {
+    z-index: 2;
+    padding-left:50px;
+    padding-right:50px;
+    position: absolute;
+    top: 700px;
+    left:30px;
+    background-color:#EF5D60;
+}
+#nameplate {
+    z-index: 1;
+    position: absolute;
+    top: 800px;
+    padding:30px;
+    width: 1990px;
+    background:#292F36;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.slidingtext {
+    font-size: 40px;
+    letter-spacing: 4px;
+    color:#EF5D60;
+}
+.text {
+    background: #292F36;
+    width: fit-content;
+    padding: 0 8px 0 15px;
+    margin-left:350px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.livetext {
+    font-size: 75px;
+    font-weight: bold;
+    letter-spacing:7px;
+    color:#292F36;
+}
+#name {
+    font-size: 75px;
+    margin-bottom: 3px;
+    letter-spacing:7px;
+    font-weight: bold;
+    color:#EF5D60;
+}
